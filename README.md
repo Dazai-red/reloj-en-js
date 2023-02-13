@@ -1,7 +1,7 @@
 # reloj-en-js
 
 ## Descripción🏝️
-Reloj hecho con HTML, CSS y JavaScript
+Reloj que muestra la fecha y hora hecho con HTML, CSS y JavaScript
 
 ## Autor🖊️
 José Antonio
