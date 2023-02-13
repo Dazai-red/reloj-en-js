@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "DS-Digital";
+    src: url("DS-DIGIT.TTF") format('truetype');
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right top, #110011, #38103e, #631472, #8e15ac, #bb12eb);
+    color: limegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 30px;
+    border: 3px solid limegreen;
+}
+
+.container .container__date{
+    font-size: 1.7rem;
+    padding: 0 7px;
+}
+
+.container .container__clock{
+    font-family: "DS-Digital", Arial;
+    color: limegreen;
+    font-size: 5.7em;
+    background-color: rgba(0,0,0,.5);
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 250px;
+    }
+    .container .container__clock{
+        font-size: 2.7em;
+        width: 250px;
+    }
+
+} 
